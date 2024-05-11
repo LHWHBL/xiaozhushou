@@ -2,7 +2,6 @@
 import os
 import pandas as pd
 import streamlit as st
-from langchain_community.vectorstores import Qdrant
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
@@ -14,6 +13,7 @@ from langchain_community.document_transformers import LongContextReorder
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import json
 import re
+from langchain_community.vectorstores import Qdrant
 from langchain_community.llms import Tongyi
 from langchain_community.llms import SparkLLM
 from langchain_community.llms import OpenAI
