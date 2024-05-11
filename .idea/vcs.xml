@@ -5,5 +5,7 @@
     <mapping directory="$PROJECT_DIR$/Langchain_read" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Langchain_read/langchain" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/langchain" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/langsmith" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pyda" vcs="Git" />
   </component>
 </project>
